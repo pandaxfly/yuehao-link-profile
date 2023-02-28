@@ -26,53 +26,34 @@ export const info = {
     firstName: "John",
     lastName: "Smith",
     initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    position: "TBA",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
+    miniBio: [
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text: 'LinkedIn'
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'Instagram'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
-        },
-        {
-            emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "小红书"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
+            link: "mailto:yuehao.pan92@gmail.com",
+            icon: 'fa fa-envelope-o',
+            label: 'email'
         },
         {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
-            link: "https://github.com",
-            icon: "fa fa-github",
-            label: 'github'
-        },
-        {
-            link: "https://linkedin.com",
-            icon: "fa fa-linkedin",
-            label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
+            link: "https://api.whatsapp.com/send?phone=6590753719",
+            icon: 'fa fa-whatsapp',
+            label: 'whatsapp'
         }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
