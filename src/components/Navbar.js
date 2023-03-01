@@ -6,27 +6,11 @@ import {Box} from "@mui/material";
 import {info} from "../info/Info";
 
 const links = [
-    {
-        name: 'Home',
-        to: '/',
-        active: 'home'
-    },
-    {
-        name: 'About Me',
-        to: '/about',
-        active: 'about'
-    },
-    {
-        name: info.initials,
-        type: 'initials',
-        to: '/',
-        active: 'home'
-    },
-    {
-        name: 'Portfolio',
-        to: '/portfolio',
-        active: 'portfolio'
-    }
+    // {
+    //     name: 'Home',
+    //     to: '/',
+    //     active: 'home'
+    // }
 ]
 
 export default function Navbar({darkMode, handleClick}) {
@@ -47,9 +31,9 @@ export default function Navbar({darkMode, handleClick}) {
                         </Link>
                     </Box>
                 ))}
-                <li>
+                {/* <li>
                     <Toggler darkMode={darkMode} handleClick={handleClick}/>
-                </li>
+                </li> */}
             </Box>
         </Box>
     )

@@ -10,27 +10,34 @@ import {info} from "../../info/Info";
 export default function Home() {
 
    return (
-      <Box component={'main'} display={'flex'} flexDirection={{xs: 'column', md: 'row'}} alignItems={'center'}
-           justifyContent={'center'} minHeight={'calc(100vh - 175px)'}>
-         <Box className={classNames(Style.avatar, Style.shadowed)} alt={'image of developer'} style={{background: info.gradient}} component={'img'} src={me} width={{xs: '35vh', md: '40vh'}}
-              height={{xs: '35vh', md: '40vh'}}
+      <Box component={'main'} display={'flex'} flexDirection={{xs: 'column', md: 'row'}} alignItems={'center'} justifyContent={'center'} minHeight={'calc(100vh - 175px)'}>
+         <Box className={classNames(Style.avatar, Style.shadowed)} alt={'Profile Picture'} style={{background: info.gradient}} component={'img'} src={me} 
+            width={{xs: '30vh', md: '35vh'}} height={{xs: '30vh', md: '35vh'}}
               borderRadius={'50%'} p={'0.75rem'} mb={{xs: '1rem', sm: 0}} mr={{xs: 0, md: '2rem'}}/>
+         <br/>
          <Box>
-            <h1>Hi, I'm <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName}</span><span className={Style.hand}>🤚</span>
+            <h1>
+               {/* <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.lastName}</span>
+                */}
+               <span>"Hey</span><span className={Style.hand}>🤚</span> 
             </h1>
-            <h2>I'm {info.position}.</h2>
+            <h2> <span> {info.firstName} here"</span></h2>
+            <Box display={'flex'} alignItems={'center'} justifyContent={'center'}>
+               <p>{info.description}</p>
+            </Box>
+
+            <br/><br/>
             <Stack spacing={2}>
                {info.miniBio.map((bio, index) => (
-                  <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
+                  <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} link={bio.link}/>
                ))}
             </Stack>
-            
-            <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{xs: '2rem', md: '2.5rem'}}>
+            <br/><br/>
+            {/* <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{xs: '2rem', md: '2.5rem'}}>
                {info.socials.map((social, index) => (
                   <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
                ))}
-            </Box>
-
+            </Box> */}
          </Box>
       </Box>
    )

@@ -1,5 +1,5 @@
 {
-  "name": "portfolioTemplate",
+  "name": "yuehao-profile",
   "version": "2.0.0",
   "private": true,
   "dependencies": {
@@ -28,7 +28,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "aliyun oss cp . oss://database-sa -u -r"
   },
   "eslintConfig": {
     "extends": "react-app"

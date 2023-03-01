@@ -2,11 +2,10 @@ import React from 'react';
 import {Button} from "@mui/material";
 
 function EmojiBullet(props) {
-    const {emoji, text} = props;
+    const {emoji, text, link} = props;
 
     return (
-        <Button variant="outlined">{emoji} {text}</Button>
-        
+        <Button variant="outlined" href={link} target="_blank">{emoji} {text}</Button>
     );
 }
 

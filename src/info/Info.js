@@ -23,40 +23,53 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "TBA",
+    firstName: "Yuehao",
+    lastName: "Pan",
+    initials: "何大山", // the example uses first and last, but feel free to use three or more if you like.
+    description: "A guy who still holds curiosity to the world.",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [
         {
-            emoji: '☕',
-            text: 'LinkedIn'
+            emoji: '💼',
+            text: 'LinkedIn',
+            link: 'https://www.linkedin.com/in/yuehao-pan/'
         },
         {
-            emoji: '🌎',
-            text: 'Instagram'
+            emoji: '📕',
+            text: "小红书",
+            link: 'https://www.xiaohongshu.com/user/profile/5d0a4df70000000011023a9a'
         },
         {
-            emoji: "💼",
-            text: "小红书"
+            emoji: '📨',
+            text: 'Email',
+            link: 'mailto:yuehao.pan92@gmail.com'
+        },
+        {
+            emoji: '💬',
+            text: 'WhatsApp',
+            link: 'https://api.whatsapp.com/send?phone=6590753719'
+        },
+        {
+            emoji: '🤳',
+            text: 'Instagram',
+            link: 'https://instagram.com/pandaxfly'
         }
     ],
     socials: [
-        {
-            link: "mailto:yuehao.pan92@gmail.com",
-            icon: 'fa fa-envelope-o',
-            label: 'email'
-        },
-        {
-            link: "https://api.whatsapp.com/send?phone=6590753719",
-            icon: 'fa fa-whatsapp',
-            label: 'whatsapp'
-        }
-// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-// Just change the links so that they lead to your social profiles.
+        // {
+        //     link: "mailto:yuehao.pan92@gmail.com",
+        //     icon: 'fa fa-envelope-o',
+        //     label: 'email'
+        // },
+        // {
+        //     link: "https://api.whatsapp.com/send?phone=6590753719",
+        //     icon: 'fa fa-whatsapp',
+        //     label: 'whatsapp'
+        // }
+        // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
+        // Just change the links so that they lead to your social profiles.
 
     ],
     bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
