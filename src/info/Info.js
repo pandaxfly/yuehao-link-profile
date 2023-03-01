@@ -42,7 +42,7 @@ export const info = {
             link: 'https://www.xiaohongshu.com/user/profile/5d0a4df70000000011023a9a'
         },
         {
-            emoji: '📨',
+            emoji: '✉️',
             text: 'Email',
             link: 'mailto:yuehao.pan92@gmail.com'
         },

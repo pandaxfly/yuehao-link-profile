@@ -29,7 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "aliyun oss cp . oss://database-sa -u -r"
+    "deploy": "aliyun oss cp ./build oss://database-sa -u -r"
   },
   "eslintConfig": {
     "extends": "react-app"
