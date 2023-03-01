@@ -1,18 +1,10 @@
-import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import self from "../img/self.jpg"
 
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
+/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of how to make this template work best for you! */
 
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+export let colors = ["rgb(188, 199, 205)", "rgb(188, 196, 210)"];
 /*
-I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
-These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
-the site.
+I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like. These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout the site.
  */
 
 
@@ -27,8 +19,8 @@ export const info = {
     lastName: "Pan",
     initials: "何大山", // the example uses first and last, but feel free to use three or more if you like.
     description: "A guy who still holds curiosity to the world.",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+    selfPortrait: self,
+    gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],
     miniBio: [
         {
@@ -100,35 +92,35 @@ export const info = {
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
-        {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
-        },
-        {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
-        },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
+        // {
+        //     title: "Project 1",
+        //     live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+        //     source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+        //     //image: mock1
+        // },
+        // {
+        //     title: "Project 2",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock2
+        // },
+        // {
+        //     title: "Project 3",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock3
+        // },
+        // {
+        //     title: "Project 4",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock4
+        // },
+        // {
+        //     title: "Project 5",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock5
+        // }
     ]
 }

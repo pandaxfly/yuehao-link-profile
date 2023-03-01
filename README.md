@@ -45,7 +45,7 @@
 - open the project in your file explorer, and navigate to `src/img`. there, you will see a bunch of images. these need
   to be replaced with your own images.
 
-#### self.png
+#### self.jpg profile
 
 - add an image of yourself with the background removed, and cropped into a square. i know this seems picky, but the
   template is set up in a way that this is how it will look best :) I recommend using https://remove.bg to remove the
