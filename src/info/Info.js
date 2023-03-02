@@ -17,8 +17,9 @@ of what each of the values mean.
 export const info = {
     firstName: "Yuehao",
     lastName: "Pan",
-    initials: "何大山", // the example uses first and last, but feel free to use three or more if you like.
-    description: "A guy who still holds curiosity to the world.",
+    initials: "何大山",
+    description: "To the sailors in the SEA, appreciated that we meet.",
+    quote: "I'm glad that you came, let's gab and keep connect!",
     selfPortrait: self,
     gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],

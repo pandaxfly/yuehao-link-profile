@@ -21,12 +21,17 @@ export default function Home() {
                 */}
                <span>"Hey &nbsp;</span><span className={Style.hand}>🤚</span> 
             </h1>
-            <h2> <span> {info.firstName} here"</span></h2>
-            <Box display={'flex'} alignItems={'center'} justifyContent={'center'}>
+            <h2> <span> {info.firstName} here, "</span></h2>
+            <br />
+            <Box display={'flex'} alignItems={'center'} justifyContent={'center'} 
+            width={{xs: '35vh', md: '40vh'}}>
                <p>{info.description}</p>
             </Box>
-
-            <br/><br/>
+            <Box display={'flex'} alignItems={'center'} justifyContent={'center'} 
+            width={{xs: '35vh', md: '40vh'}}>
+               <p>{info.quote}</p>
+            </Box>
+            <br/>
             <Stack spacing={2}>
                {info.miniBio.map((bio, index) => (
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} link={bio.tiny}/>
