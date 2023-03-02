@@ -19,7 +19,7 @@ export default function BaseLayout() {
             </Grid>
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
-                  py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
+                  py={'1.5rem'} sx={{ opacity: 0.35 }} width={'100%'} fontSize={'1.2vh'}>
                   <p>Thanks <a target='_bank' href={'https://paytonpierce.dev'}>@Payton_Pierce</a> for her great template!</p>
                   <p>&copy; 2023</p>
                </Box>
