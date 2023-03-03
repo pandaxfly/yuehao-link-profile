@@ -26,30 +26,35 @@ export const info = {
     miniBio: [
         {
             emoji: '💼',
+            id: 'linkedin',
             text: 'LinkedIn',
             tiny: 'https://tinyurl.com/4pxb9fjs',
             link: 'https://www.linkedin.com/in/yuehao-pan'
         },
         {
             emoji: '📕',
+            id: 'xhs',
             text: "小红书",
             tiny: 'https://tinyurl.com/3jsyc7dy',
             link: 'https://www.xiaohongshu.com/user/profile/5d0a4df70000000011023a9a'
         },
         {
             emoji: '💬',
+            id: 'whatsapp',
             text: 'WhatsApp',
             tiny: 'https://tinyurl.com/4k4rads5',
             link: 'https://api.whatsapp.com/send?phone=6590753719'
         },
         {
             emoji: '✉️',
+            id: 'email',
             text: 'Email (yuehao.pan92@gmail.com)',
             tiny: 'https://tinyurl.com/bdhrw4ad',
             link: 'mailto:yuehao.pan92@gmail.com'
         },
         // {
         //     emoji: '🤳',
+        //     id: 'instagram',
         //     text: 'Instagram',
         //     tiny: 'https://tinyurl.com/4ej9fyrc',
         //     link: 'https://www.instagram.com/pandaxfly'

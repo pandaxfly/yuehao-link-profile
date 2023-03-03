@@ -34,7 +34,7 @@ export default function Home() {
             <br/>
             <Stack spacing={2}>
                {info.miniBio.map((bio, index) => (
-                  <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} link={bio.tiny}/>
+                  <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} link={bio.tiny} id={bio.id}/>
                ))}
             </Stack>
             <br/><br/>
