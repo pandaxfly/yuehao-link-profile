@@ -37,23 +37,23 @@ export const info = {
             link: 'https://www.xiaohongshu.com/user/profile/5d0a4df70000000011023a9a'
         },
         {
-            emoji: '✉️',
-            text: 'Email',
-            tiny: 'https://tinyurl.com/bdhrw4ad',
-            link: 'mailto:yuehao.pan92@gmail.com'
-        },
-        {
             emoji: '💬',
             text: 'WhatsApp',
             tiny: 'https://tinyurl.com/4k4rads5',
             link: 'https://api.whatsapp.com/send?phone=6590753719'
         },
         {
-            emoji: '🤳',
-            text: 'Instagram',
-            tiny: 'https://tinyurl.com/4ej9fyrc',
-            link: 'https://www.instagram.com/pandaxfly'
-        }
+            emoji: '✉️',
+            text: 'Email (yuehao.pan92@gmail.com)',
+            tiny: 'https://tinyurl.com/bdhrw4ad',
+            link: 'mailto:yuehao.pan92@gmail.com'
+        },
+        // {
+        //     emoji: '🤳',
+        //     text: 'Instagram',
+        //     tiny: 'https://tinyurl.com/4ej9fyrc',
+        //     link: 'https://www.instagram.com/pandaxfly'
+        // }
     ],
     socials: [
         // {

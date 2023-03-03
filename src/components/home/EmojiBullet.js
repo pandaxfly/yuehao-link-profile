@@ -5,7 +5,7 @@ function EmojiBullet(props) {
     const {emoji, text, link} = props;
 
     return (
-        <Button variant="outlined" href={link} target="_blank">{emoji} {text}</Button>
+        <Button style={{textTransform: 'none'}} variant="outlined" href={link} target="_blank">{emoji} {text}</Button>
     );
 }
 
